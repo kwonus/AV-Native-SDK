@@ -46,7 +46,7 @@ The framework is highly modular. Incidentally, a modular architecture is much li
 
 All dependencies are self-contained and opaque. Nevertheless, modules that compose the Digital-AV native Framework, along with file dependencies, are depicted in Figure 1:
 
-![](AVX-Framework.png)
+![](AV-Native-SDK.png)
 
 **Figure 1**: The Digital-AV native Framework dependency diagram [rev #5415]
 
@@ -56,6 +56,8 @@ Evidenced by Figure 1, serialization is used for parameters when crossing from S
 | ------------------------------------------------------------ | ------ | ------------- | ------------------------- |
 | **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))* | master | Mac & Windows | any: file deserialization |
 | **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))* | main   | Mac & Windows | C/C++                     |
+| **av-misc** *([github.com/kwonus/AV-Native-SDK/cpp](https://github.com/kwonus/AV-Native-SDK/tree/main/cpp))* | main   | Mac & Windows | C/C++                     |
+| **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))* | main   | Mac & Windows | C/C++                     |
 | **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | Swift                     |
 | **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>[./src](https://github.com/kwonus/pinshot-blue/tree/main/src) | main   | Windows (x64) | Rust                      |
 | **blueprint-blue** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Mac & Windows | Swift                     |
