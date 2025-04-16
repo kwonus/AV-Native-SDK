@@ -52,17 +52,17 @@ All dependencies are self-contained and opaque. Nevertheless, modules that compo
 
 Evidenced by Figure 1, serialization is used for parameters when crossing from Swift into native Rust. Parameter serialization, for in-proc cross-language invocation, is used in lieu more granular parameter-marshalling, because it is both more efficient and less fragile than marshalling. All other method invocations utilize POCO (plain old C++ objects). The table in Figure 2 identifies repository references, OS dependencies and/or runtime when applicable, and implementation/computer language of the library.
 
-| **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language                  |
-| ------------------------------------------------------------ | ------ | ------------- | ------------------------- |
-| **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))* | master | Mac & Windows | any: file deserialization |
-| **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))* | main   | Mac & Windows | C/C++                     |
-| **av-misc** *([github.com/kwonus/AV-Native-SDK/cpp](https://github.com/kwonus/AV-Native-SDK/tree/main/cpp))* | main   | Mac & Windows | C/C++                     |
-| **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))* | main   | Mac & Windows | C/C++                     |
-| **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | Swift                     |
-| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>[./src](https://github.com/kwonus/pinshot-blue/tree/main/src) | main   | Windows (x64) | Rust                      |
-| **blueprint-blue** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Mac & Windows | Swift                     |
-| **av-search** *([github.com/kwonus/AV-Native-SDK/swift/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-search))* | main   | Mac & Windows | Swift                     |
-| **av-engine** *([github.com/kwonus/AV-Native-SDK/swift/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-engine))* | main   | Mac & Windows | Swift                     |
+| **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language                       |
+| ------------------------------------------------------------ | ------ | ------------- | ------------------------------ |
+| **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))* | master | Mac & Windows | any<br/>(file deserialization) |
+| **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))* | main   | Mac & Windows | C/C++                          |
+| **av-misc** *([github.com/kwonus/AV-Native-SDK/cpp](https://github.com/kwonus/AV-Native-SDK/tree/main/cpp))* | main   | Mac & Windows | C/C++                          |
+| **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))* | master | Mac & Windows | C/C++                          |
+| **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | Swift                          |
+| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>[./src](https://github.com/kwonus/pinshot-blue/tree/main/src) | main   | Windows (x64) | Rust                           |
+| **blueprint-blue** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Mac & Windows | Swift                          |
+| **av-search** *([github.com/kwonus/AV-Native-SDK/swift/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-search))* | main   | Mac & Windows | Swift                          |
+| **av-engine** *([github.com/kwonus/AV-Native-SDK/swift/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-engine))* | main   | Mac & Windows | Swift                          |
 
 **Figure 2**: The Digital-AV native Framework input and output definition and repository details [rev #5415]
 
