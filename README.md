@@ -16,7 +16,7 @@ The accuracy and trustworthiness of the AV is well documented by Edward F. Hills
 
 The Digital-AV native Framework offers unparalleled linguistic-search capabilities for the sacred text, in a fully native/compiled implementation. It is similar to a C# implementation known as AVX-Framework, but natively compiled without dotnet dependencies. Its fidelity of expression exceeds that found in most search-engines and command-languages. 
 
-AV-Engine is the central point of access to the Digital-AV native Framework. This native SDK packs all of this information into a single compact binary file: it is fully indexed and its format is extensively [documented](https://github.com/kwonus/Digital-AV/blob/master/omega/Digital-AV-%CE%A951.pdf). TAV-Engine is the entry-point to the framework. The codebase consists of both multi-platform C++ and multi-platform swift. It utilizes a full-featured command language and extensive functionality:
+AV-Engine is the central point of access to the Digital-AV native Framework. This native SDK packs all of this information into a single compact binary file: it is fully indexed and its format is extensively [documented](https://github.com/kwonus/Digital-AV/blob/master/omega/Digital-AV-%CE%A951.pdf). TAV-Engine is the entry-point to the framework. The codebase consists almost entirely of multi-platform C++. However, a large chunk of command-parsing code is written in C#, that will remain and be accessed via grpc. It utilizes a full-featured command language and extensive functionality:
 
 - sounds-alike searching via NUPhone Representation and the companion NUPhone dotnet assembly
 - ability to precisely render text, with metadata from search to accommodate term-highlighting of matched query tokens
@@ -48,9 +48,11 @@ All dependencies are self-contained and opaque. Nevertheless, modules that compo
 
 ![](AV-Native-SDK.png)
 
-**Figure 1**: The Digital-AV native Framework dependency diagram [rev #5415]
+**Figure 1**: The Digital-AV native Framework dependency diagram [rev #5424]
 
 Evidenced by Figure 1, serialization is used for parameters when crossing from Swift into native Rust. Parameter serialization, for in-proc cross-language invocation, is used in lieu more granular parameter-marshalling, because it is both more efficient and less fragile than marshalling. All other method invocations utilize POCO (plain old C++ objects). The table in Figure 2 identifies repository references, OS dependencies and/or runtime when applicable, and implementation/computer language of the library.
+
+In all cases, only 64-bit chipsets are supported. For Mac this means M1, M2, M3, M4, etc. For Windows this means x64 or ARM64.
 
 | **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language                       |
 | ------------------------------------------------------------ | ------ | ------------- | ------------------------------ |
@@ -58,11 +60,12 @@ Evidenced by Figure 1, serialization is used for parameters when crossing from S
 | **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))* | main   | Mac & Windows | C/C++                          |
 | **av-misc** *([github.com/kwonus/AV-Native-SDK/cpp](https://github.com/kwonus/AV-Native-SDK/tree/main/cpp))* | main   | Mac & Windows | C/C++                          |
 | **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))* | master | Mac & Windows | C/C++                          |
-| **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | Swift                          |
-| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>[./src](https://github.com/kwonus/pinshot-blue/tree/main/src) | main   | Windows (x64) | Rust                           |
-| **blueprint-blue** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Mac & Windows | Swift                          |
-| **av-search** *([github.com/kwonus/AV-Native-SDK/swift/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-search))* | main   | Mac & Windows | Swift                          |
-| **av-engine** *([github.com/kwonus/AV-Native-SDK/swift/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-engine))* | main   | Mac & Windows | Swift                          |
+| **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | C/C++                          |
+| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))* | main   | Windows       | Rust                           |
+| **av-blueprint-rpc** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Windows       | C#                             |
+| **av-search** *([github.com/kwonus/AV-Native-SDK/swift/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-search))* | main   | Mac & Windows | C/C++                          |
+| **av-engine** *([github.com/kwonus/AV-Native-SDK/swift/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-engine))* | main   | Mac & Windows | C/C++                          |
+| **AV-2025** UI *(TBD)*                                       | main   | Mac & Windows | Flutter                        |
 
 **Figure 2**: The Digital-AV native Framework input and output definition and repository details [rev #5415]
 
