@@ -64,7 +64,7 @@ The table in Figure 2-2 identifies external dependencies of the native framework
 
 | **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language |
 | ------------------------------------------------------------ | ------ | ------------- | -------- |
-| **av-misc** *([github.com/kwonus/AV-Native-SDK/misc](https://github.com/kwonus/AV-Native-SDK/tree/main/misc))*<br>Cross-Platform library *(miscellaneous utilities)* | main   | Mac & Windows | C/C++    |
+| **av-misc** *([github.com/kwonus/AV-Native-SDK/av-misc](https://github.com/kwonus/AV-Native-SDK/tree/main/av-misc))*<br>Cross-Platform library *(miscellaneous utilities)* | main   | Mac & Windows | C/C++    |
 | **nuphone** *([github.com/kwonus/AV-Native-SDK/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/nuphone))* | main   | Mac & Windows | C/C++    |
 | **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>dependency: Blueprint-Blue-RPC | main   | Mac & Windows | C/C++    |
 | **av-search** *([github.com/kwonus/AV-Native-SDK/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/av-search))* | main   | Mac & Windows | C/C++    |
