@@ -16,7 +16,7 @@ The accuracy and trustworthiness of the AV is well documented by Edward F. Hills
 
 The Digital-AV native Framework offers unparalleled linguistic-search capabilities for the sacred text, in a fully native/compiled implementation. It is similar to a C# implementation known as AVX-Framework, but natively compiled without dotnet dependencies. Its fidelity of expression exceeds that found in most search-engines and command-languages. 
 
-AV-Engine is the central point of access to the Digital-AV native Framework. This native SDK packs all of this information into a single compact binary file: it is fully indexed and its format is extensively [documented](https://github.com/kwonus/Digital-AV/blob/master/omega/Digital-AV-%CE%A951.pdf). TAV-Engine is the entry-point to the framework. The codebase consists almost entirely of multi-platform C++. However, a large chunk of command-parsing code is written in C#, that will remain and be accessed via grpc. It utilizes a full-featured command language and extensive functionality:
+AV-Engine is the central point of access to the Digital-AV native Framework. This native SDK packs all of this information into a single compact binary file: it is fully indexed and its format is extensively [documented](https://github.com/kwonus/Digital-AV/blob/master/omega/Digital-AV-%CE%A951.pdf). TAV-Engine is the entry-point to the framework. The codebase consists almost entirely of multi-platform C++. However, a large chunk of command-parsing code is written in C#, that will remain and be accessed via a REST service. It utilizes a full-featured command language and extensive functionality:
 
 - sounds-alike searching via NUPhone Representation and the companion NUPhone dotnet assembly
 - ability to precisely render text, with metadata from search to accommodate term-highlighting of matched query tokens
@@ -66,7 +66,7 @@ The table in Figure 2-2 identifies external dependencies of the native framework
 | ------------------------------------------------------------ | ------ | ------------- | -------- |
 | **av-misc** *([github.com/kwonus/AV-Native-SDK/av-misc](https://github.com/kwonus/AV-Native-SDK/tree/main/av-misc))*<br>Cross-Platform library *(miscellaneous utilities)* | main   | Mac & Windows | C/C++    |
 | **nuphone** *([github.com/kwonus/AV-Native-SDK/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/nuphone))* | main   | Mac & Windows | C/C++    |
-| **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>dependency: Blueprint-Blue-RPC | main   | Mac & Windows | C/C++    |
+| **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>dependency: Blueprint-Blue-SVC | main   | Mac & Windows | C/C++    |
 | **av-search** *([github.com/kwonus/AV-Native-SDK/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/av-search))* | main   | Mac & Windows | C/C++    |
 | **av-engine** *([github.com/kwonus/AV-Native-SDK/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/av-engine))* | main   | Mac & Windows | C/C++    |
 | **AV-2025** UI *(TBD)*                                       | main   | Mac & Windows | Flutter  |
@@ -78,7 +78,7 @@ The table in Figure 2-2 identifies external dependencies of the native framework
 | **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))*<br>Binary file that can be used to instantiate objects via deserialization | master | Mac & Windows | any      |
 | **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))*<br/>Cross-Platform functional access the the Digital-AV binary | main   | Mac & Windows | C/C++    |
 | **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))*<br/>Cross-Platform compatible shared-memory library | master | Mac & Windows | C/C++    |
-| **Blueprint-Blue-RPC** *([github.com/kwonus/Blueprint-Blue](https://github.com/kwonus/Blueprint-Blue))*<br/>gRPC/Protobuf wrapper around Blueprint-Blue-Lib | main   | Windows (x64) | C#       |
+| **Blueprint-Blue-SVC** *([github.com/kwonus/Blueprint-Blue](https://github.com/kwonus/Blueprint-Blue))*<br/>ASP-MVC wrapper around Blueprint-Blue-Lib | main   | Windows (x64) | C#       |
 | **Blueprint-Blue-Lib** *([github.com/kwonus/Blueprint-Blue](https://github.com/kwonus/Blueprint-Blue))*<br/>Converts S4T parses into an object model *(miscellaneous utilities)* | main   | Windows (x64) | C#       |
 | **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>Search-for-Truth (S4T) PEG-based parser | main   | Windows (x64) | Rust     |
 
@@ -96,7 +96,7 @@ NUPhone formalizes that algorithm and simultaneously embraces uncertainty in its
 
 ### av-blueprint
 
-[av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint) is a C++ library that is a wrapper around a gRPC service that is implemented in C# and dotnet 8. the RPC service serializes all objects to Protobuf 3. In turn the Blueprint-Blue-RPC service depends on a native Rust library. Blueprint-Blue-Lib handles the P/Invoke calls into the Rust library [Pinshot-Blue]. Those layers are opaque to callers of av-blueprint and together the stack produces an object model (aka blueprint) from the parse tree. The OO model/blueprint is depicted in Figure 3-1. All green objects in the diagram relate to explicit Quelle commands. All purple objects in the diagram relate to implicit Quelle commands (search expressions are merely a component of an implicit Quelle command). All gray objects are neutral or shared.
+[av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint) is a C++ library that is a wrapper around a REST service that is implemented in C# and dotnet 8. The service serializes all objects to YAML. In turn the Blueprint-Blue-SVC service depends on a native Rust library. Blueprint-Blue-Lib handles the P/Invoke calls into the Rust library [Pinshot-Blue]. Those layers are opaque to callers of av-blueprint and together the stack produces an object model (aka blueprint) from the parse tree. The OO model/blueprint is depicted in Figure 3-1. All green objects in the diagram relate to explicit Quelle commands. All purple objects in the diagram relate to implicit Quelle commands (search expressions are merely a component of an implicit Quelle command). All gray objects are neutral or shared.
 
 ![](QCommand.png)
 

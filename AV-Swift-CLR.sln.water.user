@@ -1,0 +1,97 @@
+﻿<Settings>
+  <Setting Name="DebugPaneActiveTab" Type="Integer">0</Setting>
+  <Setting Name="NavigationPaneActiveTab" Type="Integer">0</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/" Type="Boolean">True</Setting>
+  <Setting Name="SelectedNode" Type="String">file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/" Type="Boolean">True</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/" Type="Boolean">True</Setting>
+  <Setting Name="ViewMetaData" Type="Dictionary">
+    <Setting Name="file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/Features.swift" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">0</Setting>
+      <Setting Name="CursorY" Type="Integer">304</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">-1</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">-1</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">True</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">False</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+    </Setting>
+    <Setting Name="file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/LexiconToIPA.swift" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">30</Setting>
+      <Setting Name="CursorY" Type="Integer">16</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">-1</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">-1</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">True</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">False</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+    </Setting>
+    <Setting Name="file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/NUPhoneGen.swift" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">0</Setting>
+      <Setting Name="CursorY" Type="Integer">0</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">0</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">7</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">24</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">True</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">True</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+    </Setting>
+    <Setting Name="C:\src\AV-Native-SDK\AV-Swift-CLR.sln---BuildLog" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">64</Setting>
+      <Setting Name="CursorY" Type="Integer">5</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">5</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">5</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">205</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">True</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">True</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+      <Setting Name="ScrolledToBottom" Type="Boolean">False</Setting>
+    </Setting>
+    <Setting Name="file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/av%2Dinterfaces.swift" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">0</Setting>
+      <Setting Name="CursorY" Type="Integer">0</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">False</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">False</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+    </Setting>
+    <Setting Name="file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/FeatureEntity.swift" Type="Dictionary">
+      <Setting Name="CursorX" Type="Integer">0</Setting>
+      <Setting Name="CursorY" Type="Integer">0</Setting>
+      <Setting Name="SelectionStartLine" Type="Integer">-1</Setting>
+      <Setting Name="SelectionStartColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndLine" Type="Integer">0</Setting>
+      <Setting Name="SelectionEndColumn" Type="Integer">0</Setting>
+      <Setting Name="SelectionIsLinear" Type="Boolean">False</Setting>
+      <Setting Name="SelectionCursorUndecided" Type="Boolean">False</Setting>
+      <Setting Name="ScrollX" Type="Double">0.0000</Setting>
+      <Setting Name="ScrollY" Type="Double">0.0000</Setting>
+    </Setting>
+  </Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/" Type="Boolean">True</Setting>
+  <Setting Name="FinalOutputFileXml_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_Debug" Type="String">C:\Users\Me\AppData\Local\RemObjects Software\EBuild\Obj\8268311297BC1172EE74B5DAB5FCC7605DE5DEB4\Debug\FinalOutput.xml</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/NUPhoneGen.swift" Type="Boolean">True</Setting>
+  <Setting Name="LastBuildStatusLabel" Type="String">Last build failed (86 errors)</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/" Type="Boolean">True</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/" Type="Boolean">True</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/" Type="Boolean">True</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/FeatureEntity.swift" Type="Boolean">True</Setting>
+  <Setting Name="FolderExpanded_AV-SDK-CLR_file:///C:/src/AV%2DNative%2DSDK/AV%2DSDK%2DCLR.elements_file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift" Type="Boolean">True</Setting>
+  <Setting Name="Window_X" Type="Double">-32000.0000</Setting>
+  <Setting Name="Window_Y" Type="Double">-32000.0000</Setting>
+  <Setting Name="Window_Width" Type="Double">2048.0000</Setting>
+  <Setting Name="Window_Height" Type="Double">1152.0000</Setting>
+  <Setting Name="Window_Fullscreen" Type="Boolean">False</Setting>
+</Settings>

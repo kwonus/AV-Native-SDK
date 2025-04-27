@@ -1,0 +1,1351 @@
+﻿<Cache>
+  <BuildMessages>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/av%2Dinterfaces.swift</URL>
+      <Line>1</Line>
+      <Index>0</Index>
+      <Message>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let"</Message>
+      <ShortMessage>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected</ShortMessage>
+      <Code>E375</Code>
+      <StartColumn>28</StartColumn>
+      <EndColumn>28</EndColumn>
+      <LineInBuildLog>6</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/av%2Dinterfaces.swift</URL>
+      <Line>1</Line>
+      <Index>1</Index>
+      <Message>closing bracket expected, got "let"</Message>
+      <ShortMessage>closing bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>28</StartColumn>
+      <EndColumn>28</EndColumn>
+      <LineInBuildLog>7</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/av%2Dinterfaces.swift</URL>
+      <Line>23</Line>
+      <Index>2</Index>
+      <Message>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let"</Message>
+      <ShortMessage>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected</ShortMessage>
+      <Code>E375</Code>
+      <StartColumn>27</StartColumn>
+      <EndColumn>27</EndColumn>
+      <LineInBuildLog>8</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dinterfaces/av%2Dinterfaces.swift</URL>
+      <Line>23</Line>
+      <Index>3</Index>
+      <Message>closing bracket expected, got "let"</Message>
+      <ShortMessage>closing bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>27</StartColumn>
+      <EndColumn>27</EndColumn>
+      <LineInBuildLog>9</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/fuzzylex/BlueprintLex.swift</URL>
+      <Line>1</Line>
+      <Index>4</Index>
+      <Message>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let"</Message>
+      <ShortMessage>One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected</ShortMessage>
+      <Code>E375</Code>
+      <StartColumn>37</StartColumn>
+      <EndColumn>37</EndColumn>
+      <LineInBuildLog>10</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/fuzzylex/BlueprintLex.swift</URL>
+      <Line>1</Line>
+      <Index>5</Index>
+      <Message>closing bracket expected, got "let"</Message>
+      <ShortMessage>closing bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>37</StartColumn>
+      <EndColumn>37</EndColumn>
+      <LineInBuildLog>11</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>6</Index>
+      <Message>Unknown compiler directive "This"</Message>
+      <ShortMessage>Unknown compiler directive "This"</ShortMessage>
+      <Code>E286</Code>
+      <StartColumn>15</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>12</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>7</Index>
+      <Message>opening bracket expected, got identifier</Message>
+      <ShortMessage>opening bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>19</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>13</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>8</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>20</StartColumn>
+      <EndColumn>28</EndColumn>
+      <LineInBuildLog>14</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>9</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>29</StartColumn>
+      <EndColumn>34</EndColumn>
+      <LineInBuildLog>15</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>10</Index>
+      <Message>Syntax error</Message>
+      <ShortMessage>Syntax error</ShortMessage>
+      <Code>E287</Code>
+      <StartColumn>34</StartColumn>
+      <EndColumn>35</EndColumn>
+      <LineInBuildLog>16</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>11</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>34</StartColumn>
+      <EndColumn>35</EndColumn>
+      <LineInBuildLog>18</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/directive/ExportYaml.swift</URL>
+      <Line>21</Line>
+      <Index>12</Index>
+      <Message>closing bracket expected, got </Message>
+      <ShortMessage>closing bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>34</StartColumn>
+      <EndColumn>34</EndColumn>
+      <LineInBuildLog>19</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/features/FeatureGeneric.swift</URL>
+      <Line>2</Line>
+      <Index>13</Index>
+      <Message>Flag "__abstract" not allowed on this member</Message>
+      <ShortMessage>Flag "__abstract" not allowed on this member</ShortMessage>
+      <Code>E492</Code>
+      <StartColumn>2</StartColumn>
+      <EndColumn>8</EndColumn>
+      <LineInBuildLog>20</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>14</Index>
+      <Message>Attributes are not allowed here</Message>
+      <ShortMessage>Attributes not allowed here</ShortMessage>
+      <Code>E5</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>21</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>15</Index>
+      <Message>#endif expected, got __extern</Message>
+      <ShortMessage>#endif expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>23</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>16</Index>
+      <Message>Declaration expected</Message>
+      <ShortMessage>Declaration expected</ShortMessage>
+      <Code>E477</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>24</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>17</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>25</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>33</Line>
+      <Index>18</Index>
+      <Message>Attributes are not allowed here</Message>
+      <ShortMessage>Attributes not allowed here</ShortMessage>
+      <Code>E5</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>26</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>33</Line>
+      <Index>19</Index>
+      <Message>Declaration expected</Message>
+      <ShortMessage>Declaration expected</ShortMessage>
+      <Code>E477</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>27</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>37</Line>
+      <Index>20</Index>
+      <Message>Attributes are not allowed here</Message>
+      <ShortMessage>Attributes not allowed here</ShortMessage>
+      <Code>E5</Code>
+      <StartColumn>11</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>28</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>37</Line>
+      <Index>21</Index>
+      <Message>Declaration expected</Message>
+      <ShortMessage>Declaration expected</ShortMessage>
+      <Code>E477</Code>
+      <StartColumn>11</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>29</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>37</Line>
+      <Index>22</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>11</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>30</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>40</Line>
+      <Index>23</Index>
+      <Message>Attributes are not allowed here</Message>
+      <ShortMessage>Attributes not allowed here</ShortMessage>
+      <Code>E5</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>17</EndColumn>
+      <LineInBuildLog>31</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>40</Line>
+      <Index>24</Index>
+      <Message>Declaration expected</Message>
+      <ShortMessage>Declaration expected</ShortMessage>
+      <Code>E477</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>17</EndColumn>
+      <LineInBuildLog>32</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>25</Index>
+      <Message>Unknown compiler directive "This"</Message>
+      <ShortMessage>Unknown compiler directive "This"</ShortMessage>
+      <Code>E286</Code>
+      <StartColumn>19</StartColumn>
+      <EndColumn>23</EndColumn>
+      <LineInBuildLog>33</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>26</Index>
+      <Message>opening bracket expected, got identifier</Message>
+      <ShortMessage>opening bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>17</EndColumn>
+      <LineInBuildLog>34</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>27</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>18</StartColumn>
+      <EndColumn>26</EndColumn>
+      <LineInBuildLog>35</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>28</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>27</StartColumn>
+      <EndColumn>32</EndColumn>
+      <LineInBuildLog>36</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>29</Index>
+      <Message>Syntax error</Message>
+      <ShortMessage>Syntax error</ShortMessage>
+      <Code>E287</Code>
+      <StartColumn>32</StartColumn>
+      <EndColumn>33</EndColumn>
+      <LineInBuildLog>37</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>30</Index>
+      <Message>Semicolon (;) required to separate two statements on the same line</Message>
+      <ShortMessage>Semicolon (;) required to separate two statements on the same line</ShortMessage>
+      <Code>E504</Code>
+      <StartColumn>32</StartColumn>
+      <EndColumn>33</EndColumn>
+      <LineInBuildLog>39</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>11</Line>
+      <Index>31</Index>
+      <Message>closing bracket expected, got </Message>
+      <ShortMessage>closing bracket expected</ShortMessage>
+      <Code>E1</Code>
+      <StartColumn>32</StartColumn>
+      <EndColumn>32</EndColumn>
+      <LineInBuildLog>40</LineInBuildLog>
+      <Type>1</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>169</Line>
+      <Index>32</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>16</EndColumn>
+      <LineInBuildLog>41</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>170</Line>
+      <Index>33</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>42</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>175</Line>
+      <Index>34</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>16</EndColumn>
+      <LineInBuildLog>43</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>176</Line>
+      <Index>35</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>44</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>181</Line>
+      <Index>36</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>22</EndColumn>
+      <LineInBuildLog>45</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>190</Line>
+      <Index>37</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>46</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>191</Line>
+      <Index>38</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>47</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>192</Line>
+      <Index>39</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>18</EndColumn>
+      <LineInBuildLog>48</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>193</Line>
+      <Index>40</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>18</EndColumn>
+      <LineInBuildLog>49</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>214</Line>
+      <Index>41</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>24</EndColumn>
+      <LineInBuildLog>50</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>215</Line>
+      <Index>42</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>24</EndColumn>
+      <LineInBuildLog>51</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>220</Line>
+      <Index>43</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>26</EndColumn>
+      <LineInBuildLog>52</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>225</Line>
+      <Index>44</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>28</EndColumn>
+      <LineInBuildLog>53</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>230</Line>
+      <Index>45</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>27</EndColumn>
+      <LineInBuildLog>54</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>231</Line>
+      <Index>46</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>55</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>232</Line>
+      <Index>47</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>26</EndColumn>
+      <LineInBuildLog>56</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>237</Line>
+      <Index>48</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>20</EndColumn>
+      <LineInBuildLog>57</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>242</Line>
+      <Index>49</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>38</EndColumn>
+      <LineInBuildLog>58</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>243</Line>
+      <Index>50</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>38</EndColumn>
+      <LineInBuildLog>59</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>244</Line>
+      <Index>51</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>39</EndColumn>
+      <LineInBuildLog>60</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>245</Line>
+      <Index>52</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>37</EndColumn>
+      <LineInBuildLog>61</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dsearch/model/expressions/ScopingFilter.swift</URL>
+      <Line>246</Line>
+      <Index>53</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>10</StartColumn>
+      <EndColumn>37</EndColumn>
+      <LineInBuildLog>62</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>283</Line>
+      <Index>54</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>13</EndColumn>
+      <LineInBuildLog>63</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>286</Line>
+      <Index>55</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>64</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>287</Line>
+      <Index>56</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>65</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>290</Line>
+      <Index>57</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>15</EndColumn>
+      <LineInBuildLog>66</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>354</Line>
+      <Index>58</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>13</EndColumn>
+      <LineInBuildLog>67</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>357</Line>
+      <Index>59</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>68</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>358</Line>
+      <Index>60</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>69</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>361</Line>
+      <Index>61</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>15</EndColumn>
+      <LineInBuildLog>70</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>418</Line>
+      <Index>62</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>13</EndColumn>
+      <LineInBuildLog>71</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>421</Line>
+      <Index>63</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>72</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>422</Line>
+      <Index>64</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>73</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>425</Line>
+      <Index>65</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>15</EndColumn>
+      <LineInBuildLog>74</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>486</Line>
+      <Index>66</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>75</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>487</Line>
+      <Index>67</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>14</EndColumn>
+      <LineInBuildLog>76</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>488</Line>
+      <Index>68</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>15</EndColumn>
+      <LineInBuildLog>77</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>489</Line>
+      <Index>69</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>15</EndColumn>
+      <LineInBuildLog>78</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>494</Line>
+      <Index>70</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>13</EndColumn>
+      <LineInBuildLog>79</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>556</Line>
+      <Index>71</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>80</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>557</Line>
+      <Index>72</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>17</EndColumn>
+      <LineInBuildLog>81</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>560</Line>
+      <Index>73</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>82</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/implicit/QVariable.swift</URL>
+      <Line>561</Line>
+      <Index>74</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>17</EndColumn>
+      <LineInBuildLog>83</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QEntity.swift</URL>
+      <Line>36</Line>
+      <Index>75</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>24</EndColumn>
+      <LineInBuildLog>84</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QEntity.swift</URL>
+      <Line>37</Line>
+      <Index>76</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>9</StartColumn>
+      <EndColumn>20</EndColumn>
+      <LineInBuildLog>85</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>16</Line>
+      <Index>77</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>86</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>21</Line>
+      <Index>78</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>20</EndColumn>
+      <LineInBuildLog>87</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>22</Line>
+      <Index>79</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>23</EndColumn>
+      <LineInBuildLog>88</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>25</Line>
+      <Index>80</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>18</EndColumn>
+      <LineInBuildLog>89</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>30</Line>
+      <Index>81</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>20</EndColumn>
+      <LineInBuildLog>90</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/model/search/QFeatureFactory.swift</URL>
+      <Line>33</Line>
+      <Index>82</Index>
+      <Message>Cannot fallthrough cases, explicit "fallthrough" expected</Message>
+      <ShortMessage>"fallthrough" expected</ShortMessage>
+      <Code>E542</Code>
+      <StartColumn>13</StartColumn>
+      <EndColumn>21</EndColumn>
+      <LineInBuildLog>91</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>37</Line>
+      <Index>83</Index>
+      <Message>Duplicate "main()" code block</Message>
+      <ShortMessage>Duplicate "main()" code block</ShortMessage>
+      <Code>E502</Code>
+      <StartColumn>11</StartColumn>
+      <EndColumn>19</EndColumn>
+      <LineInBuildLog>92</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>84</Index>
+      <Message>Previous declaration was here</Message>
+      <ShortMessage>Previous declaration was here</ShortMessage>
+      <Code>N1</Code>
+      <StartColumn>17</StartColumn>
+      <EndColumn>25</EndColumn>
+      <LineInBuildLog>93</LineInBuildLog>
+      <Type>5</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/av%2Dengine/NativeLibrary.swift</URL>
+      <Line>30</Line>
+      <Index>85</Index>
+      <Message>Implementation for method "method query_create(client_id_1: nullable not nullable UInt64; client_id_2: nullable not nullable UInt64; blueprint: nullable not nullable String; span: nullable not nullable UInt16; lexicon: not nullable UInt8; similarity: not nullable UInt8; fuzzy_lemmata: not nullable UInt8): nullable not nullable UInt64" is missing</Message>
+      <ShortMessage>Implementation missing</ShortMessage>
+      <Code>E51</Code>
+      <StartColumn>26</StartColumn>
+      <EndColumn>204</EndColumn>
+      <LineInBuildLog>94</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+    <Message>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/blueprint%2Dblue/PinshotLib.swift</URL>
+      <Line>37</Line>
+      <Index>86</Index>
+      <Message>Implementation for method "method assert_grammar_revision(revision: nullable not nullable UInt16): nullable not nullable UInt16" is missing</Message>
+      <ShortMessage>Implementation missing</ShortMessage>
+      <Code>E51</Code>
+      <StartColumn>20</StartColumn>
+      <EndColumn>80</EndColumn>
+      <LineInBuildLog>95</LineInBuildLog>
+      <Type>0</Type>
+      <ProjectID>{ee5f0040-075c-4c71-837b-53c2d09587eb}</ProjectID>
+      <Target>Echoes</Target>
+    </Message>
+  </BuildMessages>
+  <Breakpoints>
+    <Breakpoint>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/Features.swift</URL>
+      <Line>34</Line>
+      <Enabled>True</Enabled>
+      <Break>True</Break>
+      <Stop>False</Stop>
+    </Breakpoint>
+    <Breakpoint>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/Features.swift</URL>
+      <Line>240</Line>
+      <Enabled>True</Enabled>
+      <Break>True</Break>
+      <Stop>False</Stop>
+    </Breakpoint>
+    <Breakpoint>
+      <URL>file:///C:/src/AV%2DNative%2DSDK/swift/nuphone/LexiconToIPA.swift</URL>
+      <Line>51</Line>
+      <Enabled>True</Enabled>
+      <Break>True</Break>
+      <Stop>False</Stop>
+    </Breakpoint>
+  </Breakpoints>
+  <BreakpointsEnabled>True</BreakpointsEnabled>
+  <BreakpointsEnabledWhenTesting>True</BreakpointsEnabledWhenTesting>
+  <UseBreakpointsFromAllSolutions>False</UseBreakpointsFromAllSolutions>
+  <BuildActivity>4</BuildActivity>
+  <BuildActivityGoal>Build</BuildActivityGoal>
+  <BuildActivityFailedTask />
+  <BuildActivityFailedProject />
+  <BuildLog>"C:\Program Files (x86)\RemObjects Software\Elements\Bin\EBuild.exe" --logger:fire C:\src\AV-Native-SDK\AV-Swift-CLR.sln --configuration:Debug --build --setting:TreatFixableErrorsAsWarnings=True --xml:C:\src\AV-Native-SDK\obj\AV-Swift-CLR.water.xml --no-goal --verbosity:normal
+RemObjects EBuild. An open source build engine for Elements and beyond.
+Copyright RemObjects Software 2016-2025. All Rights Reserved. Created by marc hoffman.
+Version 12.0.0.2981 (develop) built on bajor, 20250307-161529. Commit b512658.
+
+E: One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let" [C:\src\AV-Native-SDK\swift\av-interfaces\av-interfaces.swift (1)]
+E: closing bracket expected, got "let" [C:\src\AV-Native-SDK\swift\av-interfaces\av-interfaces.swift (1)]
+E: One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let" [C:\src\AV-Native-SDK\swift\av-interfaces\av-interfaces.swift (23)]
+E: closing bracket expected, got "let" [C:\src\AV-Native-SDK\swift\av-interfaces\av-interfaces.swift (23)]
+E: One of "var", "func", "subscript", "typealias", "__event", "prefix", "postfix", "infix", "init", "associatedtype",  expected, got "let" [C:\src\AV-Native-SDK\swift\blueprint-blue\fuzzylex\BlueprintLex.swift (1)]
+E: closing bracket expected, got "let" [C:\src\AV-Native-SDK\swift\blueprint-blue\fuzzylex\BlueprintLex.swift (1)]
+E: Unknown compiler directive "This" [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: opening bracket expected, got identifier [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: Syntax error [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+   C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift(21,34): duplicate-error E287: Syntax error
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: closing bracket expected, got  [C:\src\AV-Native-SDK\swift\blueprint-blue\model\directive\ExportYaml.swift (21)]
+E: Flag "__abstract" not allowed on this member [C:\src\AV-Native-SDK\swift\av-search\model\features\FeatureGeneric.swift (2)]
+E: Attributes are not allowed here [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+   C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift(30,17): duplicate-error E5: Attributes are not allowed here
+E: #endif expected, got __extern [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+E: Declaration expected [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+E: Attributes are not allowed here [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (33)]
+E: Declaration expected [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (33)]
+E: Attributes are not allowed here [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (37)]
+E: Declaration expected [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (37)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (37)]
+E: Attributes are not allowed here [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (40)]
+E: Declaration expected [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (40)]
+E: Unknown compiler directive "This" [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: opening bracket expected, got identifier [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: Syntax error [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+   C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift(11,32): duplicate-error E287: Syntax error
+E: Semicolon (;) required to separate two statements on the same line [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: closing bracket expected, got  [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (11)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (169)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (170)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (175)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (176)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (181)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (190)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (191)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (192)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (193)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (214)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (215)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (220)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (225)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (230)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (231)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (232)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (237)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (242)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (243)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (244)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (245)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\av-search\model\expressions\ScopingFilter.swift (246)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (283)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (286)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (287)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (290)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (354)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (357)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (358)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (361)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (418)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (421)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (422)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (425)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (486)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (487)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (488)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (489)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (494)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (556)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (557)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (560)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\implicit\QVariable.swift (561)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QEntity.swift (36)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QEntity.swift (37)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (16)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (21)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (22)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (25)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (30)]
+E: Cannot fallthrough cases, explicit "fallthrough" expected [C:\src\AV-Native-SDK\swift\blueprint-blue\model\search\QFeatureFactory.swift (33)]
+E: Duplicate "main()" code block [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (37)]
+N: Previous declaration was here [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+E: Implementation for method "method query_create(client_id_1: nullable not nullable UInt64; client_id_2: nullable not nullable UInt64; blueprint: nullable not nullable String; span: nullable not nullable UInt16; lexicon: not nullable UInt8; similarity: not nullable UInt8; fuzzy_lemmata: not nullable UInt8): nullable not nullable UInt64" is missing [C:\src\AV-Native-SDK\swift\av-engine\NativeLibrary.swift (30)]
+E: Implementation for method "method assert_grammar_revision(revision: nullable not nullable UInt16): nullable not nullable UInt16" is missing [C:\src\AV-Native-SDK\swift\blueprint-blue\PinshotLib.swift (37)]
+   Project 'AV-SDK-CLR' failed to build.
+   Solution 'AV-Swift-CLR' failed to build project 'AV-Swift-CLR'.</BuildLog>
+  <DebugLog />
+  <ProfilerResults />
+</Cache>

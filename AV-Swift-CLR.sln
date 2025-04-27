@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Water
+Project("{656346d9-4656-40da-a068-22d5425d4639}") = "AV-SDK-CLR", "AV-SDK-CLR.elements", "{ee5f0040-075c-4c71-837b-53c2d09587eb}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ee5f0040-075c-4c71-837b-53c2d09587eb}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{ee5f0040-075c-4c71-837b-53c2d09587eb}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{ee5f0040-075c-4c71-837b-53c2d09587eb}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{ee5f0040-075c-4c71-837b-53c2d09587eb}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

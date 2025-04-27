@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProductVersion>3.5</ProductVersion>
+    <RootNamespace>AVSDKCLR</RootNamespace>
+    <ProjectGuid>{EE5F0040-075C-4C71-837B-53C2D09587EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>AVSDKCLR</AssemblyName>
+    <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <TargetFramework>.NETFramework4.8.1</TargetFramework>
+    <MinFrameworkVersionRequired>4.0</MinFrameworkVersionRequired>
+    <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>False</Optimize>
+    <OutputPath>.\Bin\Debug</OutputPath>
+    <ConditionalDefines>DEBUG;TRACE;</ConditionalDefines>
+    <GeneratePDB>True</GeneratePDB>
+    <GenerateMDB>True</GenerateMDB>
+    <EnableAsserts>True</EnableAsserts>
+    <CpuType>anycpu</CpuType>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>.\Bin\Release</OutputPath>
+    <CpuType>anycpu</CpuType>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Silver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Echoes">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elements">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.swift" />
+    <Compile Include="Properties\AssemblyInfo.swift" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <Compile Include="swift\av-engine\NativeLibrary.swift" />
+    <Compile Include="swift\av-engine\Renderings.swift" />
+    <Compile Include="swift\av-interfaces\av-interfaces.swift" />
+    <Compile Include="swift\av-interfaces\Blueprint.swift" />
+    <Compile Include="swift\av-search\AVQueryManager.swift" />
+    <Compile Include="swift\av-search\model\expressions\FeatureEntity.swift" />
+    <Compile Include="swift\av-search\model\expressions\ScopingFilter.swift" />
+    <Compile Include="swift\av-search\model\expressions\SearchExpression.swift" />
+    <Compile Include="swift\av-search\model\expressions\SearchFragment.swift" />
+    <Compile Include="swift\av-search\model\expressions\SearchMatchAny.swift" />
+    <Compile Include="swift\av-search\model\expressions\SearchScope.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureDecoration.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureDelta.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureGeneric.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureLemma.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureLexeme.swift" />
+    <Compile Include="swift\av-search\model\features\FeaturePartOfSpeech.swift" />
+    <Compile Include="swift\av-search\model\features\FeaturePunctuation.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureStrongs.swift" />
+    <Compile Include="swift\av-search\model\features\FeatureTransition.swift" />
+    <Compile Include="swift\av-search\model\results\QueryChapter.swift" />
+    <Compile Include="swift\av-search\model\results\QueryMatch.swift" />
+    <Compile Include="swift\av-search\model\results\QueryResult.swift" />
+    <Compile Include="swift\av-search\model\results\QueryTag.swift" />
+    <Compile Include="swift\av-search\model\types\TypeBook.swift" />
+    <Compile Include="swift\av-search\model\types\TypeChapter.swift" />
+    <Compile Include="swift\av-search\model\types\TypeWildcard.swift" />
+    <Compile Include="swift\blueprint-blue\PinshotLib.swift" />
+    <Compile Include="swift\blueprint-blue\PinshotSvc.swift" />
+    <Compile Include="swift\blueprint-blue\fuzzylex\BlueprintLex.swift" />
+    <Compile Include="swift\blueprint-blue\model\directive\ExportJson.swift" />
+    <Compile Include="swift\blueprint-blue\model\directive\ExportYaml.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QAbsorb.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QBulk.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QBulkHistory.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QBulkMacros.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QClear.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QControl.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QDelete.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QGet.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QHelp.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QSet.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QSingleton.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QView.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QViewHistory.swift" />
+    <Compile Include="swift\blueprint-blue\model\explicit\QViewMacro.swift" />
+    <Compile Include="swift\blueprint-blue\model\implicit\QAssign.swift" />
+    <Compile Include="swift\blueprint-blue\model\implicit\QFind.swift" />
+    <Compile Include="swift\blueprint-blue\model\implicit\QSelectionCriteria.swift" />
+    <Compile Include="swift\blueprint-blue\model\implicit\QUtilize.swift" />
+    <Compile Include="swift\blueprint-blue\model\implicit\QVariable.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QDecoration.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QDelta.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QEntity.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QFeatureFactory.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QFragment.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QMatchAny.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QPunctuation.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QStrongs.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QTransition.swift" />
+    <Compile Include="swift\blueprint-blue\model\search\QWildcard.swift" />
+    <Compile Include="swift\blueprint-blue\peg\Grammar.swift" />
+    <Compile Include="swift\nuphone\en_US.swift" />
+    <None Include="swift\nuphone\en_US.txt" />
+    <Compile Include="swift\nuphone\LexiconToIPA.swift" />
+    <Compile Include="swift\nuphone\NUPhoneGen.swift" />
+    <Compile Include="swift\nuphone\Features.swift" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Echoes.targets" />
+</Project>
