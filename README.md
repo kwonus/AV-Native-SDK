@@ -38,7 +38,7 @@ With respect to the Digital-AV, you can rely on its foundation. With countless d
 
 ### What's next?
 
-The Digital-AV native Framework represents a radical step forward, at the same time as it reaches back to its roots. It began in 1995 as a fast & lean KJV search tool for Windows (written in Microsoft C++ and Borland Delphi).  The modern framework is still fast & lean. They say, "The more things change, the more things stay the same." This cliche applies here. AV-Engine is back! Unlike the earlier AVX-Framework, it is natively compiled (this time with platform-portable C++ and platform-portable swift). Once again, the GUI will be walled off from the engine. The GUI is still under investigation. A Swift implantation on Mac and a Flutter implementation on Windows are being considered. A multi-platform Qt C++ is also under consideration.  Initial implementation as a native web-app behind a hardened reverse-proxy is the most likely first implementation.
+The Digital-AV native Framework represents a radical step forward, at the same time as it reaches back to its roots. It began in 1995 as a fast & lean KJV search tool for Windows (written in Microsoft C++ and Borland Delphi).  The modern framework is still fast & lean. They say, "The more things change, the more things stay the same." This cliche applies here. AV-Engine is back! Unlike the earlier AVX-Framework, it is natively compiled (this time with platform-portable C++). Once again, the GUI will be walled off from the engine. The GUI is still under investigation. A Swift implantation on Mac and a Flutter implementation on Windows are being considered. A multi-platform Qt C++ is also under consideration.  Initial implementation as a native web-app behind a hardened reverse-proxy is the most likely first implementation.
 
 ### Native Modularity *(and almost dependency free)*
 
@@ -48,28 +48,41 @@ All dependencies are self-contained and opaque. Nevertheless, modules that compo
 
 ![](AV-Native-SDK.png)
 
-**Figure 1**: The Digital-AV native Framework dependency diagram [rev #5424]
+**Figure 1-1**: The Digital-AV native Framework overview [rev #5424]
 
-Evidenced by Figure 1, serialization is used for parameters when crossing from Swift into native Rust. Parameter serialization, for in-proc cross-language invocation, is used in lieu more granular parameter-marshalling, because it is both more efficient and less fragile than marshalling. All other method invocations utilize POCO (plain old C++ objects). The table in Figure 2 identifies repository references, OS dependencies and/or runtime when applicable, and implementation/computer language of the library.
+Evidenced by Figure 1-2, serialization is used for parameters when crossing from Swift into native Rust. Parameter serialization, for in-proc cross-language invocation, is used in lieu more granular parameter-marshalling, because it is both more efficient and less fragile than marshalling. All other method invocations utilize POCO (plain old C++ objects). The table in Figure 2 identifies repository references, OS dependencies and/or runtime when applicable, and implementation/computer language of the library.
 
-In all cases, only 64-bit chipsets are supported. For Mac this means M1, M2, M3, M4, etc. For Windows this means x64 or ARM64.
+![](AV-Native-Blueprint.png)
 
-| **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language                       |
-| ------------------------------------------------------------ | ------ | ------------- | ------------------------------ |
-| **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))* | master | Mac & Windows | any<br/>(file deserialization) |
-| **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))* | main   | Mac & Windows | C/C++                          |
-| **av-misc** *([github.com/kwonus/AV-Native-SDK/cpp](https://github.com/kwonus/AV-Native-SDK/tree/main/cpp))* | main   | Mac & Windows | C/C++                          |
-| **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))* | master | Mac & Windows | C/C++                          |
-| **nuphone** *([github.com/kwonus/AV-Native-SDK/swift/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/nuphone))* | main   | Mac & Windows | C/C++                          |
-| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))* | main   | Windows       | Rust                           |
-| **av-blueprint-rpc** *([github.com/kwonus/AV-Native-SDK/swift/blueprint-blue](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/blueprint-blue))* | main   | Windows       | C#                             |
-| **av-search** *([github.com/kwonus/AV-Native-SDK/swift/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-search))* | main   | Mac & Windows | C/C++                          |
-| **av-engine** *([github.com/kwonus/AV-Native-SDK/swift/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/swift/av-engine))* | main   | Mac & Windows | C/C++                          |
-| **AV-2025** UI *(TBD)*                                       | main   | Mac & Windows | Flutter                        |
+**Figure 1-2**: The Digital-AV native Framework external dependencies [rev #5424]
 
-**Figure 2**: The Digital-AV native Framework input and output definition and repository details [rev #5415]
+Evidenced by Figure 1-2, serialization is used for parameters when crossing from C# into native Rust. Parameter serialization, for in-proc cross-language invocation, is used in the Blueprint-Blue library.
 
+The table in Figure 2-1 identifies repository references of the native framework, along with list of supported operating systems.
 
+The table in Figure 2-2 identifies external dependencies of the native framework, along with list of supported operating systems.
+
+| **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language |
+| ------------------------------------------------------------ | ------ | ------------- | -------- |
+| **av-misc** *([github.com/kwonus/AV-Native-SDK/misc](https://github.com/kwonus/AV-Native-SDK/tree/main/misc))*<br>Cross-Platform library *(miscellaneous utilities)* | main   | Mac & Windows | C/C++    |
+| **nuphone** *([github.com/kwonus/AV-Native-SDK/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/nuphone))* | main   | Mac & Windows | C/C++    |
+| **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>dependency: Blueprint-Blue-RPC | main   | Mac & Windows | C/C++    |
+| **av-search** *([github.com/kwonus/AV-Native-SDK/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/av-search))* | main   | Mac & Windows | C/C++    |
+| **av-engine** *([github.com/kwonus/AV-Native-SDK/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/av-engine))* | main   | Mac & Windows | C/C++    |
+| **AV-2025** UI *(TBD)*                                       | main   | Mac & Windows | Flutter  |
+
+**Figure 2-1**: The Digital-AV native Framework input and output definition and repository details [rev #5426]
+
+| **Module**  *(repository)*<br/>source code folder            | Branch | Supported OS  | Language |
+| ------------------------------------------------------------ | ------ | ------------- | -------- |
+| **Digital-AV** *([github.com/kwonus/Digital-AV](https://github.com/kwonus/Digital-AV))*<br>Binary file that can be used to instantiate objects via deserialization | master | Mac & Windows | any      |
+| **av-foundations** *([github.com/kwonus/Digital-AV/omega/foundations/c](https://github.com/kwonus/Digital-AV/tree/master/omega/foundations/c))*<br/>Cross-Platform functional access the the Digital-AV binary | main   | Mac & Windows | C/C++    |
+| **xvmem** *([github.com/kwonus/XVMem](https://github.com/kwonus/XVMem))*<br/>Cross-Platform compatible shared-memory library | master | Mac & Windows | C/C++    |
+| **Blueprint-Blue-RPC** *([github.com/kwonus/Blueprint-Blue](https://github.com/kwonus/Blueprint-Blue))*<br/>gRPC/Protobuf wrapper around Blueprint-Blue-Lib | main   | Windows (x64) | C#       |
+| **Blueprint-Blue-Lib** *([github.com/kwonus/Blueprint-Blue](https://github.com/kwonus/Blueprint-Blue))*<br/>Converts S4T parses into an object model *(miscellaneous utilities)* | main   | Windows (x64) | C#       |
+| **pinshot-blue** *([github.com/kwonus/pinshot-blue](https://github.com/kwonus/pinshot-blue))*<br/>Search-for-Truth (S4T) PEG-based parser | main   | Windows (x64) | Rust     |
+
+**Figure 2-2**: External Dependencies of the Digital-AV native Framework [rev #5426]
 
 ### Internals
 
@@ -81,13 +94,9 @@ The Digital-AV native Framework simplifies access to the [Digital-AV SDK](https:
 
 NUPhone formalizes that algorithm and simultaneously embraces uncertainty in its formalism. NUPhone is part acronym and part blend, It stands for "<u>N</u>ormalized-<u>U</u>ncertainty <u>Phone</u>me" representation. Like the heads & tails algorithm, NUPhone incorporates an abbreviated phonetic inventory. Yet, the NUPhone representation utilizes only 8-bits per phoneme. In general, that is more compact than ASCII, because many English phonemes are represented by more than a single character. Cooler still, those 8-bits represent a tiny coordinate system. Using this manner of representation, sound similarity can be efficiently calculated with Manhattan-Distance. Things couldn't be more intuitive. Phoneme embeddings in only 8-bits, coverage of the full phonetic inventory for English, and the efficiency of fuzzy-comparisons without the overhead of floating-point arithmetic!
 
-### pinshot-blue internals
+### av-blueprint
 
-[pinshot-blue](github.com/kwonus/pinshot-blue) is an in-process Rust library with C-compatible FFI definitions. It is called by Blueprint-Blue using P/Invoke to perform the parse of a PEG grammar. The grammar itself is baked into Pinshot-Blue and implements the full specification of [Quelle-AVX](https://github.com/kwonus/Quelle/blob/main/Quelle-AVX.md). Pinshot-Blue is a lean native library that does just one thing: it converts a Quelle command into a parse tree using the [Pest crate](https://docs.rs/pest/latest/pest/). It returns the parse as text with the contents represented in JSON (a recursive representation of the parse).
-
-### blueprint-blue internals
-
-[Blueprint-Blue](github.com/kwonus/blueprint-blue) is a native library, implemented in swift. It uses standard Swift interfaces for parameters and the return types. However, the assembly also handles the P/Invoke calls into Pinshot-Blue. These two libraries work in tandem to produce the object model (aka blueprint) from the parse tree. AV-Engine is the consumer of Blueprint-Blue. Blueprint-Blue is in turn the consumer of Pinshot-Blue. These relationships are depicted in Figure 1. The OO model/blueprint is depicted in Figure 3-1. All green objects in the diagram relate to explicit Quelle commands. All purple objects in the diagram relate to implicit Quelle commands (search expressions are merely a component of an implicit Quelle command). All gray objects are neutral or shared.
+[av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint) is a C++ library that is a wrapper around a gRPC service that is implemented in C# and dotnet 8. the RPC service serializes all objects to Protobuf 3. In turn the Blueprint-Blue-RPC service depends on a native Rust library. Blueprint-Blue-Lib handles the P/Invoke calls into the Rust library [Pinshot-Blue]. Those layers are opaque to callers of av-blueprint and together the stack produces an object model (aka blueprint) from the parse tree. The OO model/blueprint is depicted in Figure 3-1. All green objects in the diagram relate to explicit Quelle commands. All purple objects in the diagram relate to implicit Quelle commands (search expressions are merely a component of an implicit Quelle command). All gray objects are neutral or shared.
 
 ![](QCommand.png)
 
@@ -101,11 +110,11 @@ The QFind object depicted above is almost a framework in itself. Figure 3-2 prov
 
 ### av-search internals
 
-To summarize Figure 1, Blueprint-Blue converts the pinshot [parse tree] from Pinshot-Blue into a blueprint [object model]. This blueprint is handed off to AV-Search, which returns search results as represented by the purple boxes of Figure 3-3.
+After a command is converted into a blueprint, that blueprint is handed off to av-search, which returns search results as represented by the purple boxes of Figure 3-3.
 
-As seen in Figure 3-2, the QFind class inherits from SearchExpression. Most levels inherit from the result objects for easier interop between Blueprint-Blue and AV-Search with AV-Engine.  The full QueryResult object hierarchy, depicted in Figure 3-3, streamlines rendering and highlighting operations for downstream clients of AV-Engine. All calls from AV-Engine to AV-Search are in-process. An earlier experiment, utilized a similar design that required serialization and native C++ code (It is unfinished, but available for review at [github.com/AV-Text/AVX]() ). That experiment has been tabled for now in favor of a fully .NET 8 library stack.
+As seen in Figure 3-2, the QFind class inherits from SearchExpression. Most levels inherit from the result objects for easier interop between av-blueprint and av-search with av-engine.  The full QueryResult object hierarchy, depicted in Figure 3-3, streamlines rendering and highlighting operations for downstream clients of av-engine. All calls from av-engine to av-search are in-process.
 
-Figure 3-3 reveals the entire QueryResult hierarchy. The purple objects offer both a summary of search results simultaneously with per-chapter results with metadata for highlighting and rendering.  The Dark Gray box is not part of the Query itself; instead, it manages access to instantiated queries. The design is forward looking for when AV-Engine sits behind a REST service. The QueryManager is not currently implemented in the in-proc implementations.
+Figure 3-3 reveals the entire QueryResult hierarchy. The purple objects offer both a summary of search results simultaneously with per-chapter results with metadata for highlighting and rendering.  The Dark Gray box is not part of the Query itself; instead, it manages access to instantiated queries. The design is forward looking for when av-engine sits behind a REST service. The QueryManager is not currently implemented in the in-proc implementations.
 
 ![](AVX-Results.png)
 
@@ -115,7 +124,7 @@ Figure 3-3 reveals the entire QueryResult hierarchy. The purple objects offer bo
 
 ### av-engine internals
 
-av-engine is a native library, implemented in swift. Once a Quelle object model (aka blueprint) is obtained for the search from the blueprint-blue library, it is passed to av-Search. Additional details about the object-model can be found in the [Quelle-AVX specification](https://github.com/kwonus/Quelle/blob/main/Quelle-AVX.md).
+av-engine is a native library, implemented in C++. Once a Quelle object model (aka blueprint) is obtained for the search from the av-blueprint library, it is passed to av-search. Additional details about the object-model can be found in the [Quelle-AVX specification](https://github.com/kwonus/Quelle/blob/main/Quelle-AVX.md).
 
 ### Development Roadmap
 
