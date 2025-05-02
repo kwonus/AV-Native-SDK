@@ -66,10 +66,10 @@ The table in Figure 2-2 identifies external dependencies of the native framework
 | ------------------------------------------------------------ | ------ | ------------- | -------- |
 | **av-misc** *([github.com/kwonus/AV-Native-SDK/av-misc](https://github.com/kwonus/AV-Native-SDK/tree/main/av-misc))*<br>Cross-Platform library *(miscellaneous utilities)* | main   | Mac & Windows | C/C++    |
 | **nuphone** *([github.com/kwonus/AV-Native-SDK/nuphone](https://github.com/kwonus/AV-Native-SDK/tree/main/nuphone))* | main   | Mac & Windows | C/C++    |
-| **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>dependency: Blueprint-Blue-SVC | main   | Mac & Windows | C/C++    |
+| **av-blueprint** *([github.com/kwonus/AV-Native-SDK/av-blueprint](https://github.com/kwonus/AV-Native-SDK/tree/main/av-blueprint))*<br/>service dependency: *([github.com/kwonus/Blueprint-Blue: REST Service](https://github.com/kwonus/Blueprint-Blue))*<br/>third-party dependency: *([github.com/fktn-k/fkYAML: C++ header-only YAML library](https://github.com/fktn-k/fkYAML))* | main   | Mac & Windows | C/C++    |
 | **av-search** *([github.com/kwonus/AV-Native-SDK/av-search](https://github.com/kwonus/AV-Native-SDK/tree/main/av-search))* | main   | Mac & Windows | C/C++    |
 | **av-engine** *([github.com/kwonus/AV-Native-SDK/av-engine](https://github.com/kwonus/AV-Native-SDK/tree/main/av-engine))* | main   | Mac & Windows | C/C++    |
-| **AV-2025** UI *(TBD)*                                       | main   | Mac & Windows | Flutter  |
+| **AV-2025 UI**                                               | main   | Mac & Windows | TBD      |
 
 **Figure 2-1**: The Digital-AV native Framework input and output definition and repository details [rev #5426]
 
